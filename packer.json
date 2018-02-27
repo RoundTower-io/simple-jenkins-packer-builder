@@ -26,7 +26,7 @@
         "sudo apt-get update --fix-missing",
         "sudo apt-get install -y python",
         "sudo apt-get install -y awscli",
-        "sudo aws s3 cp s3://rtt-jenkins-bucket/add2vals /usr/local/bin --region us-east-2",
+        "sudo aws s3 cp s3://rtt-jenkins-bucket/training1/add2vals /usr/local/bin --region us-east-2",
         "sudo chmod 777 /usr/local/bin/add2vals"
       ]
     }
