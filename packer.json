@@ -25,7 +25,7 @@
         "sleep 30",
         "sudo apt-get update --fix-missing",
         "sudo apt-get install -y python",
-        "sudo wget -q http://ec2-18-219-152-113.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/releases/rtt-release/apps/add2vals/1.0/add2vals-1.0",
+        "sudo wget -q http://ec2-18-219-152-113.us-east-2.compute.amazonaws.com:8081/repository/rtt-release/apps/add2vals/1.0/add2vals-1.0",
         "sudo mv add2vals-1.0 /usr/local/bin/add2vals",
         "sudo chmod 777 /usr/local/bin/add2vals"
       ]
