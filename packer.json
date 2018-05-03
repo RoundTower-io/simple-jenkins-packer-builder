@@ -7,7 +7,7 @@
       "iam_instance_profile": "rtt-jenkins-packer-role",
       "instance_type": "t2.medium",
       "ssh_username": "ubuntu",
-      "ami_name": "jenkins-agent-{{isotime \"2006-01-02T1504\"}}",
+      "ami_name": "jenkins-rtt-{{isotime \"2006-01-02T1504\"}}",
       "launch_block_device_mappings": [
         {
           "device_name": "/dev/sda1",
